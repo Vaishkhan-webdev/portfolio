@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Vaish Khan</span></h1>
+            <h2>Web Developer</h2>
+            <p>I create beautiful and functional websites</p>
+            <a href="9082805570" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a passionate web developer with expertise in creating responsive and user-friendly websites. With a strong foundation in modern web technologies, I bring ideas to life through clean and efficient code.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="https://via.placeholder.com/350x200" alt="Project 1">
+                <h3>Project Name</h3>
+                <p>Description of the project goes here. Explain what you built and the technologies used.</p>
+                <div class="project-links">
+                    <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-react"></i>
+                <h3>React</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact"><section id="contact" class="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <a href="mailto:vaish9629@gmail.com">vaishkhan0913@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <a href="tel:+91 9082805570">+91 9082805570</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Indore,India</p>
+                </div>
+            </div>
+
+            <form id="contact-form" action="https://formsubmit.co/vaish9629@gmail.com" method="POST">
+                <!-- Honeypot -->
+                <input type="text" name="_honey" style="display: none;">
+                
+                <!-- Disable Captcha -->
+                <input type="hidden" name="_captcha" value="false">
+                
+                <!-- Success Page -->
+                <input type="hidden" name="_next" value="thanks.html">
+
+                <div class="input-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" name="email" placeholder="Your Mail" required>
+                </div>
+                <div class="input-group">
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="input-group">
+                    <textarea name="message" placeholder="Your Message." required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+
+       
+            <div class="social-links">
+                <a href="https://github.com/Vaishkhan-webdev"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/vaish-khan-b5b360347?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                <a href=" https://x.com/vaish9629?t=ajUgI9NnNUOLu9hMWKLYbA&s=08"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Vaish Ahmed Khan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

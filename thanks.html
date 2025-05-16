@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Message Sent</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .thanks-container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .thanks-content {
+            background: var(--glass-bg);
+            border: var(--glass-border);
+            padding: 3rem;
+            border-radius: 12px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .thanks-icon {
+            font-size: 4rem;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+        }
+        
+        .thanks-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+        
+        .thanks-message {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: var(--text-color);
+        }
+        
+        .back-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: var(--primary-color);
+            color: var(--bg-color);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: var(--transition);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .back-button:hover {
+            background: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="thanks-container">
+        <div class="thanks-content">
+            <div class="thanks-icon">✓</div>
+            <h1 class="thanks-title">Thank You!</h1>
+            <p class="thanks-message">Your message has been sent successfully. I'll get back to you as soon as possible.</p>
+            <a href="index.html" class="back-button">Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html> 
